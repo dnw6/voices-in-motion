@@ -112,17 +112,26 @@ body {
 @media (max-width: 1200px) { 
   .invite {
     width: 98vw;
-    background: rgba(255,255,255,.85);
-    border-radius: 9px;
-    margin: 2em ;
-    padding: 2em;
 }
  }
 
+ .bio {
+   background: rgba(255,255,255,.85);
+   padding: 1em;
+   border-radius: 9px;
+   margin-bottom: 2em;
+ }
 .invite h1 {
     font-family: "Amarante", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 4em;
     text-align: center;
+    margin-bottom: .4em;
+    line-height: 1;
+}
+
+.invite h2 {
+    font-family: "Amarante", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 2em;
     margin-bottom: .4em;
     line-height: 1;
 }
@@ -153,4 +162,8 @@ a:hover {
 h1.animated {
   animation-duration: 2s;
 
+}
+
+.float--right {
+  float: right;
 }
