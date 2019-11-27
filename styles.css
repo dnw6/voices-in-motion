@@ -86,7 +86,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
     background: #000 url("img/ahmad-odeh-KHipnBn7sdY-unsplash.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .wrap {
@@ -103,7 +104,7 @@ body {
 
 .invite {
     width: 50vw;
-    background: rgba(255,255,255,.85);
+    background: rgba(255,255,255,.75);
     border-radius: 9px;
     margin: 2em ;
     padding: 2em;
@@ -115,8 +116,8 @@ body {
 }
  }
 
- .bio {
-   background: rgba(255,255,255,.85);
+ .section {
+   background: rgba(255,255,255,.75);
    padding: 1em;
    border-radius: 9px;
    margin-bottom: 2em;
@@ -166,4 +167,35 @@ h1.animated {
 
 .float--right {
   float: right;
+}
+
+.flush--bottom {
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+a.on {
+  padding: 6px 12px;
+  border-radius: 50px;
+  background: #333;
+  color: white;
+}
+a.off {
+  padding: 6px 12px;
+  border-radius: 50px;
+  background: white;
+  color: #333;
+  opacity: .3;
 }
