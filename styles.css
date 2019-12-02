@@ -85,7 +85,7 @@ select {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
-    background: #000 url("img/ahmad-odeh-KHipnBn7sdY-unsplash.jpg");
+    background: #000 url("img/pawel-czerwinski-fPN1w7bIuNU-unsplash.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -207,7 +207,7 @@ a.off {
   border-radius: 50px;
   background: white;
   color: #333;
-  opacity: .4;
+  opacity: .6;
 }
 
 @media (max-width: 960px) { 
