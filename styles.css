@@ -85,7 +85,7 @@ select {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
-    background: #000 url("img/pawel-czerwinski-fPN1w7bIuNU-unsplash.jpg");
+    background: #000 url("img/pawel-czerwinski-tMbQpdguDVQ-unsplash_faded.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -216,14 +216,14 @@ a.off {
 }
  }
 
- @media (max-width: 480px) { 
+ @media (max-width: 600px) { 
   .invite {
     margin: 1em;
 }
   .invite h1 {
-    font-size: 3em;
+    font-size: 2.6em;
   }
   .invite h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
  }
