@@ -85,9 +85,19 @@ select {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #333;
-    background: #000 url("img/pawel-czerwinski-tMbQpdguDVQ-unsplash_faded.jpg");
+    /* background: #000 url("img/pawel-czerwinski-tMbQpdguDVQ-unsplash_faded.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: linear-gradient(128deg, #1A2980, #79CBCA, #E684AE);
+    background-size: 200% 200%;
+    animation: bgAnimation 30s ease 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bgAnimation {
+    0%{background-position:5% 0%}
+    50%{background-position:46% 50%}
+    100%{background-position:96% 100%}
 }
 
 .wrap {
